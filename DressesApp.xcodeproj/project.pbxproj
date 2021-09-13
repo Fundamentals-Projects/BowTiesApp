@@ -7,29 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EBF073E526ED0D160092A5AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF073E426ED0D160092A5AA /* AppDelegate.swift */; };
-		EBF073E726ED0D160092A5AA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF073E626ED0D160092A5AA /* SceneDelegate.swift */; };
-		EBF073E926ED0D160092A5AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF073E826ED0D160092A5AA /* ViewController.swift */; };
-		EBF073EC26ED0D160092A5AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBF073EA26ED0D160092A5AA /* Main.storyboard */; };
-		EBF073EF26ED0D160092A5AA /* DressesApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EBF073ED26ED0D160092A5AA /* DressesApp.xcdatamodeld */; };
-		EBF073F126ED0D190092A5AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBF073F026ED0D190092A5AA /* Assets.xcassets */; };
-		EBF073F426ED0D190092A5AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBF073F226ED0D190092A5AA /* LaunchScreen.storyboard */; };
+		EBFEE4DB26EE663900F1496D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFEE4DA26EE663900F1496D /* AppDelegate.swift */; };
+		EBFEE4DD26EE663900F1496D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFEE4DC26EE663900F1496D /* SceneDelegate.swift */; };
+		EBFEE4DF26EE663900F1496D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFEE4DE26EE663900F1496D /* ViewController.swift */; };
+		EBFEE4E226EE663900F1496D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBFEE4E026EE663900F1496D /* Main.storyboard */; };
+		EBFEE4E526EE663900F1496D /* DressesApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EBFEE4E326EE663900F1496D /* DressesApp.xcdatamodeld */; };
+		EBFEE4E726EE663B00F1496D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBFEE4E626EE663B00F1496D /* Assets.xcassets */; };
+		EBFEE4EA26EE663C00F1496D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBFEE4E826EE663C00F1496D /* LaunchScreen.storyboard */; };
+		EBFEE4F626EE679B00F1496D /* SampleData.plist in Resources */ = {isa = PBXBuildFile; fileRef = EBFEE4F526EE679B00F1496D /* SampleData.plist */; };
+		EBFEE4FA26EE6ED200F1496D /* Dresses+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFEE4F826EE6ED200F1496D /* Dresses+CoreDataClass.swift */; };
+		EBFEE4FB26EE6ED200F1496D /* Dresses+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFEE4F926EE6ED200F1496D /* Dresses+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EBF073E126ED0D160092A5AA /* DressesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DressesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EBF073E426ED0D160092A5AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EBF073E626ED0D160092A5AA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EBF073E826ED0D160092A5AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EBF073EB26ED0D160092A5AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EBF073EE26ED0D160092A5AA /* BowTiesApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BowTiesApp.xcdatamodel; sourceTree = "<group>"; };
-		EBF073F026ED0D190092A5AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EBF073F326ED0D190092A5AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		EBF073F526ED0D190092A5AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBFEE4D726EE663900F1496D /* DressesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DressesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBFEE4DA26EE663900F1496D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EBFEE4DC26EE663900F1496D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EBFEE4DE26EE663900F1496D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EBFEE4E126EE663900F1496D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBFEE4E426EE663900F1496D /* DressesApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DressesApp.xcdatamodel; sourceTree = "<group>"; };
+		EBFEE4E626EE663B00F1496D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBFEE4E926EE663C00F1496D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBFEE4EB26EE663C00F1496D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBFEE4F526EE679B00F1496D /* SampleData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SampleData.plist; sourceTree = "<group>"; };
+		EBFEE4F826EE6ED200F1496D /* Dresses+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dresses+CoreDataClass.swift"; sourceTree = "<group>"; };
+		EBFEE4F926EE6ED200F1496D /* Dresses+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dresses+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EBF073DE26ED0D160092A5AA /* Frameworks */ = {
+		EBFEE4D426EE663900F1496D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,96 +45,99 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EBF073D826ED0D160092A5AA = {
+		EBFEE4CE26EE663900F1496D = {
 			isa = PBXGroup;
 			children = (
-				EBF073E326ED0D160092A5AA /* DressesApp */,
-				EBF073E226ED0D160092A5AA /* Products */,
+				EBFEE4D926EE663900F1496D /* DressesApp */,
+				EBFEE4D826EE663900F1496D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		EBF073E226ED0D160092A5AA /* Products */ = {
+		EBFEE4D826EE663900F1496D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EBF073E126ED0D160092A5AA /* DressesApp.app */,
+				EBFEE4D726EE663900F1496D /* DressesApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EBF073E326ED0D160092A5AA /* DressesApp */ = {
+		EBFEE4D926EE663900F1496D /* DressesApp */ = {
 			isa = PBXGroup;
 			children = (
-				EBF073FD26ED0F480092A5AA /* View Controllers */,
-				EBF073FC26ED0F340092A5AA /* Views & Assets */,
-				EBF073FB26ED0F190092A5AA /* Model */,
-				EBF073E426ED0D160092A5AA /* AppDelegate.swift */,
-				EBF073E626ED0D160092A5AA /* SceneDelegate.swift */,
-				EBF073F526ED0D190092A5AA /* Info.plist */,
+				EBFEE4F726EE67C800F1496D /* Model */,
+				EBFEE4F226EE669A00F1496D /* Views & Assets */,
+				EBFEE4F126EE668300F1496D /* View Controllers */,
+				EBFEE4DA26EE663900F1496D /* AppDelegate.swift */,
+				EBFEE4DC26EE663900F1496D /* SceneDelegate.swift */,
+				EBFEE4EB26EE663C00F1496D /* Info.plist */,
 			);
 			path = DressesApp;
 			sourceTree = "<group>";
 		};
-		EBF073FB26ED0F190092A5AA /* Model */ = {
+		EBFEE4F126EE668300F1496D /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				EBF073ED26ED0D160092A5AA /* DressesApp.xcdatamodeld */,
+				EBFEE4DE26EE663900F1496D /* ViewController.swift */,
 			);
-			path = Model;
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
-		EBF073FC26ED0F340092A5AA /* Views & Assets */ = {
+		EBFEE4F226EE669A00F1496D /* Views & Assets */ = {
 			isa = PBXGroup;
 			children = (
-				EBF073F226ED0D190092A5AA /* LaunchScreen.storyboard */,
-				EBF073F026ED0D190092A5AA /* Assets.xcassets */,
-				EBF073EA26ED0D160092A5AA /* Main.storyboard */,
+				EBFEE4F526EE679B00F1496D /* SampleData.plist */,
+				EBFEE4E826EE663C00F1496D /* LaunchScreen.storyboard */,
+				EBFEE4E626EE663B00F1496D /* Assets.xcassets */,
+				EBFEE4E026EE663900F1496D /* Main.storyboard */,
 			);
 			path = "Views & Assets";
 			sourceTree = "<group>";
 		};
-		EBF073FD26ED0F480092A5AA /* View Controllers */ = {
+		EBFEE4F726EE67C800F1496D /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				EBF073E826ED0D160092A5AA /* ViewController.swift */,
+				EBFEE4F826EE6ED200F1496D /* Dresses+CoreDataClass.swift */,
+				EBFEE4F926EE6ED200F1496D /* Dresses+CoreDataProperties.swift */,
+				EBFEE4E326EE663900F1496D /* DressesApp.xcdatamodeld */,
 			);
-			path = "View Controllers";
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EBF073E026ED0D160092A5AA /* DressesApp */ = {
+		EBFEE4D626EE663900F1496D /* DressesApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EBF073F826ED0D190092A5AA /* Build configuration list for PBXNativeTarget "DressesApp" */;
+			buildConfigurationList = EBFEE4EE26EE663C00F1496D /* Build configuration list for PBXNativeTarget "DressesApp" */;
 			buildPhases = (
-				EBF073DD26ED0D160092A5AA /* Sources */,
-				EBF073DE26ED0D160092A5AA /* Frameworks */,
-				EBF073DF26ED0D160092A5AA /* Resources */,
+				EBFEE4D326EE663900F1496D /* Sources */,
+				EBFEE4D426EE663900F1496D /* Frameworks */,
+				EBFEE4D526EE663900F1496D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = DressesApp;
-			productName = BowTiesApp;
-			productReference = EBF073E126ED0D160092A5AA /* DressesApp.app */;
+			productName = DressesApp;
+			productReference = EBFEE4D726EE663900F1496D /* DressesApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EBF073D926ED0D160092A5AA /* Project object */ = {
+		EBFEE4CF26EE663900F1496D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					EBF073E026ED0D160092A5AA = {
+					EBFEE4D626EE663900F1496D = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
 				};
 			};
-			buildConfigurationList = EBF073DC26ED0D160092A5AA /* Build configuration list for PBXProject "DressesApp" */;
+			buildConfigurationList = EBFEE4D226EE663900F1496D /* Build configuration list for PBXProject "DressesApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -136,56 +145,59 @@
 				en,
 				Base,
 			);
-			mainGroup = EBF073D826ED0D160092A5AA;
-			productRefGroup = EBF073E226ED0D160092A5AA /* Products */;
+			mainGroup = EBFEE4CE26EE663900F1496D;
+			productRefGroup = EBFEE4D826EE663900F1496D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EBF073E026ED0D160092A5AA /* DressesApp */,
+				EBFEE4D626EE663900F1496D /* DressesApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		EBF073DF26ED0D160092A5AA /* Resources */ = {
+		EBFEE4D526EE663900F1496D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBF073F426ED0D190092A5AA /* LaunchScreen.storyboard in Resources */,
-				EBF073F126ED0D190092A5AA /* Assets.xcassets in Resources */,
-				EBF073EC26ED0D160092A5AA /* Main.storyboard in Resources */,
+				EBFEE4EA26EE663C00F1496D /* LaunchScreen.storyboard in Resources */,
+				EBFEE4E726EE663B00F1496D /* Assets.xcassets in Resources */,
+				EBFEE4F626EE679B00F1496D /* SampleData.plist in Resources */,
+				EBFEE4E226EE663900F1496D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EBF073DD26ED0D160092A5AA /* Sources */ = {
+		EBFEE4D326EE663900F1496D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBF073E926ED0D160092A5AA /* ViewController.swift in Sources */,
-				EBF073EF26ED0D160092A5AA /* DressesApp.xcdatamodeld in Sources */,
-				EBF073E526ED0D160092A5AA /* AppDelegate.swift in Sources */,
-				EBF073E726ED0D160092A5AA /* SceneDelegate.swift in Sources */,
+				EBFEE4DF26EE663900F1496D /* ViewController.swift in Sources */,
+				EBFEE4FA26EE6ED200F1496D /* Dresses+CoreDataClass.swift in Sources */,
+				EBFEE4FB26EE6ED200F1496D /* Dresses+CoreDataProperties.swift in Sources */,
+				EBFEE4E526EE663900F1496D /* DressesApp.xcdatamodeld in Sources */,
+				EBFEE4DB26EE663900F1496D /* AppDelegate.swift in Sources */,
+				EBFEE4DD26EE663900F1496D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EBF073EA26ED0D160092A5AA /* Main.storyboard */ = {
+		EBFEE4E026EE663900F1496D /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EBF073EB26ED0D160092A5AA /* Base */,
+				EBFEE4E126EE663900F1496D /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		EBF073F226ED0D190092A5AA /* LaunchScreen.storyboard */ = {
+		EBFEE4E826EE663C00F1496D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EBF073F326ED0D190092A5AA /* Base */,
+				EBFEE4E926EE663C00F1496D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -193,7 +205,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		EBF073F626ED0D190092A5AA /* Debug */ = {
+		EBFEE4EC26EE663C00F1496D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -254,7 +266,7 @@
 			};
 			name = Debug;
 		};
-		EBF073F726ED0D190092A5AA /* Release */ = {
+		EBFEE4ED26EE663C00F1496D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -309,7 +321,7 @@
 			};
 			name = Release;
 		};
-		EBF073F926ED0D190092A5AA /* Debug */ = {
+		EBFEE4EF26EE663C00F1496D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -328,7 +340,7 @@
 			};
 			name = Debug;
 		};
-		EBF073FA26ED0D190092A5AA /* Release */ = {
+		EBFEE4F026EE663C00F1496D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -350,20 +362,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EBF073DC26ED0D160092A5AA /* Build configuration list for PBXProject "DressesApp" */ = {
+		EBFEE4D226EE663900F1496D /* Build configuration list for PBXProject "DressesApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EBF073F626ED0D190092A5AA /* Debug */,
-				EBF073F726ED0D190092A5AA /* Release */,
+				EBFEE4EC26EE663C00F1496D /* Debug */,
+				EBFEE4ED26EE663C00F1496D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EBF073F826ED0D190092A5AA /* Build configuration list for PBXNativeTarget "DressesApp" */ = {
+		EBFEE4EE26EE663C00F1496D /* Build configuration list for PBXNativeTarget "DressesApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EBF073F926ED0D190092A5AA /* Debug */,
-				EBF073FA26ED0D190092A5AA /* Release */,
+				EBFEE4EF26EE663C00F1496D /* Debug */,
+				EBFEE4F026EE663C00F1496D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -371,17 +383,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		EBF073ED26ED0D160092A5AA /* DressesApp.xcdatamodeld */ = {
+		EBFEE4E326EE663900F1496D /* DressesApp.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				EBF073EE26ED0D160092A5AA /* BowTiesApp.xcdatamodel */,
+				EBFEE4E426EE663900F1496D /* DressesApp.xcdatamodel */,
 			);
-			currentVersion = EBF073EE26ED0D160092A5AA /* BowTiesApp.xcdatamodel */;
+			currentVersion = EBFEE4E426EE663900F1496D /* DressesApp.xcdatamodel */;
 			path = DressesApp.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = EBF073D926ED0D160092A5AA /* Project object */;
+	rootObject = EBFEE4CF26EE663900F1496D /* Project object */;
 }

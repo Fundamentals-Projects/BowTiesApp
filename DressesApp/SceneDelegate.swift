@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  BowTiesApp
+//  DressesApp
 //
-//  Created by Omairys Uzcátegui on 2021-09-11.
+//  Created by Omairys Uzcátegui on 2021-09-12.
 //
 
 import UIKit
