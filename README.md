@@ -1,9 +1,8 @@
 # DressesApp
 
-This project is similar to the "Bow Ties" project from the book "Core Data by Tutorials Fourth Edition"
-Aaron Douglas, Saul Mora, Matthew Morey and Pietro Rea; in this case, I did it with Dresses.
+This project is similar to the "Bow Ties" project from the book "Core Data by Tutorials Fourth Edition" Aaron Douglas, Saul Mora, Matthew Morey and Pietro Rea; in this case, I did it with Dresses.
 
-This is implemented in the version of iOS 14.5 where the main difference with respect to the book is in the initialization of the managedContext. In the book example, pass the managed object context from class to class via a property in the appDelegate Class. 
+This is implemented in the version of iOS 14.5 where the main difference with respect to the book is in the initialization of the managedContext. In the book example, the managedContext it passes from class to class through "application" property in the appDelegate Class.
 
 In my case, it doesn't work this time, because I get a error unwrapping the managedContext variable and I'm no sure why, maybe with a better understood I will try like a porperty.
 
